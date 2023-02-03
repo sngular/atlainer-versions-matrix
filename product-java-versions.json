@@ -42,5 +42,19 @@
                 17
             ]
         }
+    ],
+    "java": [
+        {
+            "version": 8,
+            "label": "openjdk-8"
+        },
+        {
+            "version": 11,
+            "label": "openjdk-11"
+        },
+        {
+            "version": 17,
+            "label": "openjdk-17"
+        }
     ]
 }
