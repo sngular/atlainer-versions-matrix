@@ -3,27 +3,33 @@
         {
             "productVersion": "7.0.0",
             "javaVersions": [
-                8
+                "oracle-jdk-8"
             ]
         },
         {
             "productVersion": "8.0.0",
             "javaVersions": [
-                8
+                "openjdk-8",
+                "oracle-jdk-8"
             ]
         },
         {
             "productVersion": "8.2.0",
             "javaVersions": [
-                8,
-                11
+                "openjdk-8",
+                "oracle-jdk-8",
+                "openjdk-11",
+                "oracle-jdk-11"
             ]
         },
         {
             "productVersion": "9.0.0",
             "javaVersions": [
-                8,
-                11
+                "oracle-jdk-8",
+                "oracle-jdk-11",
+                "temurin-8-jdk-amd64",
+                "temurin-11-jdk-amd64",
+                "temurin-17-jdk-amd64"
             ]
         }
     ],
@@ -43,25 +49,50 @@
             ]
         },
         {
-            "productVersion": "9.2.0",
+            "productVersion": "8.0.0",
             "javaVersions": [
-                11,
-                17
+                "oracle-jdk-8", "oracle-jdk-11",
+                "temurin-11-jdk-amd64",
+                "temurin-17-jdk-amd64"
             ]
         }
     ],
     "java": [
         {
-            "version": 8,
-            "label": "openjdk-8"
+            "version": "openjdk-8",
+            "label": "OpenJDK 8"
         },
         {
-            "version": 11,
-            "label": "openjdk-11"
+            "version": "openjdk-11",
+            "label": "OpenJDK 11"
         },
         {
-            "version": 17,
-            "label": "openjdk-17"
+            "version": "openjdk-17",
+            "label": "OpenJDK 17"
+        },
+        {
+            "version": "oracle-jdk-8",
+            "label": "Oracle JDK 8"
+        },
+        {
+            "version": "oracle-jdk-11",
+            "label": "Oracle JDK 11"
+        },
+        {
+            "version": "oracle-jdk-17",
+            "label": "Oracle JDK 17"
+        },
+        {
+            "version": "temurin-8-jdk-amd64",
+            "label": "Eclipse Temurin - Java 8"
+        },
+        {
+            "version": "temurin-11-jdk-amd64",
+            "label": "Eclipse Temurin - Java 11"
+        },
+        {
+            "version": "temurin-17-jdk-amd64",
+            "label": "Eclipse Temurin - Java 17"
         }
     ]
 }
