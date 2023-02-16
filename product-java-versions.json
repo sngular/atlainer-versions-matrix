@@ -9,16 +9,16 @@
         {
             "productVersion": "8.0.0",
             "javaVersions": [
-                "openjdk-8",
+                "java-8-openjdk-amd64",
                 "oracle-jdk-8"
             ]
         },
         {
             "productVersion": "8.2.0",
             "javaVersions": [
-                "openjdk-8",
+                "java-8-openjdk-amd64",
                 "oracle-jdk-8",
-                "openjdk-11",
+                "java-11-openjdk-amd6",
                 "oracle-jdk-11"
             ]
         },
@@ -59,15 +59,15 @@
     ],
     "java": [
         {
-            "version": "openjdk-8",
+            "version": "java-8-openjdk-amd64",
             "label": "OpenJDK 8"
         },
         {
-            "version": "openjdk-11",
+            "version": "java-11-openjdk-amd6",
             "label": "OpenJDK 11"
         },
         {
-            "version": "openjdk-17",
+            "version": "java-17-openjdk-amd64",
             "label": "OpenJDK 17"
         },
         {
