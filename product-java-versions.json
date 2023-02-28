@@ -37,21 +37,22 @@
         {
             "productVersion": "6.0.0",
             "javaVersions": [
-                8,
-                11
+                "java-8-openjdk-amd64",
+                "java-11-openjdk-amd6"
             ]
         },
         {
             "productVersion": "7.0.0",
             "javaVersions": [
-                8,
-                11
+                "java-8-openjdk-amd64",
+                "java-11-openjdk-amd6"
             ]
         },
         {
             "productVersion": "8.0.0",
             "javaVersions": [
-                "oracle-jdk-8", "oracle-jdk-11",
+                "oracle-jdk-8",
+                "oracle-jdk-11",
                 "temurin-11-jdk-amd64",
                 "temurin-17-jdk-amd64"
             ]
