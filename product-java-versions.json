@@ -3,33 +3,30 @@
         {
             "productVersion": "7.0.0",
             "javaVersions": [
-                "oracle-jdk-8"
+                "openjdk-8"
             ]
         },
         {
             "productVersion": "8.0.0",
             "javaVersions": [
-                "java-8-openjdk-amd64",
-                "oracle-jdk-8"
+                "openjdk-8"
             ]
         },
         {
             "productVersion": "8.2.0",
             "javaVersions": [
-                "java-8-openjdk-amd64",
-                "oracle-jdk-8",
-                "java-11-openjdk-amd6",
-                "oracle-jdk-11"
+                "openjdk-8",
+                "openjdk-11",
             ]
         },
         {
             "productVersion": "9.0.0",
             "javaVersions": [
-                "oracle-jdk-8",
-                "oracle-jdk-11",
-                "temurin-8-jdk-amd64",
-                "temurin-11-jdk-amd64",
-                "temurin-17-jdk-amd64"
+                "openjdk-8",
+                "openjdk-11",
+                "temurin-jdk-8",
+                "temurin-jdk-11",
+                "temurin-jdk-17"
             ]
         }
     ],
@@ -37,62 +34,50 @@
         {
             "productVersion": "6.0.0",
             "javaVersions": [
-                "java-8-openjdk-amd64",
-                "java-11-openjdk-amd6"
+                "openjdk-8",
+                "openjdk-11"
             ]
         },
         {
             "productVersion": "7.0.0",
             "javaVersions": [
-                "java-8-openjdk-amd64",
-                "java-11-openjdk-amd6"
+                "openjdk-8",
+                "openjdk-11"
             ]
         },
         {
             "productVersion": "8.0.0",
             "javaVersions": [
-                "oracle-jdk-8",
-                "oracle-jdk-11",
-                "temurin-11-jdk-amd64",
-                "temurin-17-jdk-amd64"
+                "openjdk-8",
+                "openjdk11",
+                "temurin-jdk-11",
+                "temurin-jdk-17"
             ]
         }
     ],
     "java": [
         {
-            "version": "java-8-openjdk-amd64",
+            "version": "openjdk-8",
             "label": "OpenJDK 8"
         },
         {
-            "version": "java-11-openjdk-amd6",
+            "version": "openjdk-11",
             "label": "OpenJDK 11"
         },
         {
-            "version": "java-17-openjdk-amd64",
+            "version": "openjdk-17",
             "label": "OpenJDK 17"
         },
         {
-            "version": "oracle-jdk-8",
-            "label": "Oracle JDK 8"
-        },
-        {
-            "version": "oracle-jdk-11",
-            "label": "Oracle JDK 11"
-        },
-        {
-            "version": "oracle-jdk-17",
-            "label": "Oracle JDK 17"
-        },
-        {
-            "version": "temurin-8-jdk-amd64",
+            "version": "temurin-jdk-8",
             "label": "Eclipse Temurin - Java 8"
         },
         {
-            "version": "temurin-11-jdk-amd64",
+            "version": "temurin-jdk-11",
             "label": "Eclipse Temurin - Java 11"
         },
         {
-            "version": "temurin-17-jdk-amd64",
+            "version": "temurin-jdk-17",
             "label": "Eclipse Temurin - Java 17"
         }
     ]
