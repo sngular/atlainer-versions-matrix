@@ -49,7 +49,7 @@
             "productVersion": "8.0.0",
             "javaVersions": [
                 "openjdk-8",
-                "openjdk11",
+                "openjdk-11",
                 "temurin-jdk-11",
                 "temurin-jdk-17"
             ]
