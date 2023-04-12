@@ -1,4 +1,4 @@
-export const DATABASE_MATRIX = {
+{
     "JIRA": [
         {
             "productVersion": "7.0.0",
@@ -73,7 +73,7 @@ export const DATABASE_MATRIX = {
     ],
     "databases": [
         {
-            "version": "12C R1",
+            "version": "12C_R1",
             "label": "Oracle 12C R1",
             "key": "oracle-12c-r1",
             "type": "oracle",
@@ -83,7 +83,8 @@ export const DATABASE_MATRIX = {
             "version": "19C",
             "label": "Oracle 19C",
             "key": "oracle-19c",
-            "type": "oracle"
+            "type": "oracle",
+            "port": 11522
         },
         {
             "version": "5.7.37",
