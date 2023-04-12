@@ -1,0 +1,140 @@
+export const DATABASE_MATRIX = {
+    "JIRA": [
+        {
+            "productVersion": "7.0.0",
+            "databaseVersions": ["oracle-12c-r1", "mysql-5.7.37", "postgres-9.6", "mssql-2017"]
+        },
+        {
+            "productVersion": "8.4.0",
+            "databaseVersions": ["oracle-12c-r1", "mysql-5.7.37", "postgres-9.6", "mssql-2017"]
+        },
+        {
+            "productVersion": "8.7.0",
+            "databaseVersions": ["oracle-12c-r1", "mysql-5.7.37", "postgres-9.6", "postgres-11", "mssql-2017"]
+        },
+        {
+            "productVersion": "8.8.0",
+            "databaseVersions": ["oracle-12c-r1", "mysql-5.7.37", "postgres-9.6", "postgres-11", "mssql-2017"]
+        },
+        {
+            "productVersion": "8.12.0",
+            "databaseVersions": ["oracle-12c-r1", "mysql-5.7.37", "mysql-8.0.32", "postgres-9.6", "postgres-11", "mssql-2017"]
+        },
+        {
+            "productVersion": "8.17.0",
+            "databaseVersions": ["oracle-12c-r1", "mysql-5.7.37", "mysql-8.0.32", "postgres-9.6", "postgres-11", "mssql-2017", "mssql-2019"]
+        },
+        {
+            "productVersion": "8.19.0",
+            "databaseVersions": ["oracle-12c-r1", "mysql-5.7.37", "mysql-8.0.32", "postgres-11", "mssql-2017", "mssql-2019"]
+        },
+        {
+            "productVersion": "9.0.0",
+            "databaseVersions": ["oracle-12c-r1", "mysql-5.7.37", "mysql-8.0.32", "postgres-11", "postgres-14", "mssql-2017", "mssql-2019"]
+        },
+        {
+            "productVersion": "9.2.0",
+            "databaseVersions": ["oracle-12c-r1", "mysql-8.0.32", "postgres-11", "postgres-14", "mssql-2017", "mssql-2019"]
+        }
+    ],
+    "CONFLUENCE": [
+        {
+            "productVersion": "6.0.0",
+            "databaseVersions": ["oracle-12c-r1", "mysql-5.7.37", "postgres-9.6", "mssql-2017"]
+        },
+        {
+            "productVersion": "7.3.0",
+            "databaseVersions": ["oracle-12c-r1", "mysql-5.7.37", "mysql-8.0.32", "postgres-9.6","mssql-2017"]
+        },
+        {
+            "productVersion": "7.4.0",
+            "databaseVersions": ["oracle-12c-r1", "mysql-5.7.37", "mysql-8.0.32", "postgres-9.6", "mssql-2017"]
+        },
+        {
+            "productVersion": "7.12.0",
+            "databaseVersions": ["oracle-12c-r1", "mysql-5.7.37", "mysql-8.0.32", "postgres-9.6", "postgres-11", "mssql-2017"]
+        },
+        {
+            "productVersion": "7.14.0",
+            "databaseVersions": ["oracle-12c-r1", "mysql-5.7.37", "mysql-8.0.32", "postgres-11", "mssql-2017"]
+        },
+        {
+            "productVersion": "7.16.0",
+            "databaseVersions": ["oracle-12c-r1", "mysql-5.7.37", "mysql-8.0.32", "postgres-11", "mssql-2017", "mssql-2019"]
+        },
+        {
+            "productVersion": "7.17.0",
+            "databaseVersions": ["oracle-12c-r1", "mysql-5.7.37", "mysql-8.0.32", "postgres-11", "postgres-14", "mssql-2017", "mssql-2019"]
+        },
+        {
+            "productVersion": "8.0.0",
+            "databaseVersions": ["oracle-12c-r1", "mysql-8.0.32", "postgres-14", "mssql-2017", "mssql-2019"]
+        }
+    ],
+    "databases": [
+        {
+            "version": "12C R1",
+            "label": "Oracle 12C R1",
+            "key": "oracle-12c-r1",
+            "type": "oracle",
+            "port": 11521
+        },
+        {
+            "version": "19C",
+            "label": "Oracle 19C",
+            "key": "oracle-19c",
+            "type": "oracle"
+        },
+        {
+            "version": "5.7.37",
+            "label": "MySQL 5.7.37",
+            "key": "mysql-5.7.37",
+            "type": "mysql",
+            "port": 13306,
+            "connector": "mysql-connector-java-5.1.49-bin.jar"
+        },
+        {
+            "version": "8.0.32",
+            "label": "MySQL 8.0.32",
+            "key": "mysql-8.0.32",
+            "type": "mysql",
+            "port": 13307,
+            "connector": "mysql-connector-j-8.0.32.jar"
+        },
+        {
+            "version": "9.6",
+            "label": "Postgres 9.6",
+            "key": "postgres-9.6",
+            "port": 15432,
+            "type": "postgres"
+        },
+        {
+            "version": "11.0",
+            "label": "Postgres 11",
+            "key": "postgres-11",
+            "port": 15433,
+            "type": "postgres"
+        },
+        {
+            "version": "14.0",
+            "label": "Postgres 14",
+            "key": "postgres-14",
+            "port": 15434,
+            "type": "postgres"
+        },
+        {
+            "version": "2017",
+            "label": "MSSQL 2017",
+            "key": "mssql-2017",
+            "port": 11433,
+            "type": "mssql"
+        },
+        {
+            "version": "2019",
+            "label": "MSSQL 2019",
+            "key": "mssql-2019",
+            "port": 11434,
+            "type": "mssql"
+        }
+    ]
+}
