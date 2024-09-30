@@ -25,7 +25,22 @@
                 "openjdk-8",
                 "openjdk-11",
                 "temurin-jdk-8",
+                "temurin-jdk-11"
+            ]
+        },
+        {
+            "productVersion": "9.5.0",
+            "javaVersions": [
+                "openjdk-8",
+                "openjdk-11",
+                "temurin-jdk-8",
                 "temurin-jdk-11",
+                "temurin-jdk-17"
+            ]
+        },
+        {
+            "productVersion": "10.0.0",
+            "javaVersions": [
                 "temurin-jdk-17"
             ]
         }
@@ -50,6 +65,12 @@
             "javaVersions": [
                 "openjdk-11",
                 "temurin-jdk-11",
+                "temurin-jdk-17"
+            ]
+        },
+        {
+            "productVersion": "9.0.0",
+            "javaVersions": [
                 "temurin-jdk-17"
             ]
         }
