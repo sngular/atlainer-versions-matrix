@@ -40,35 +40,35 @@
     "CONFLUENCE": [
         {
             "productVersion": "6.0.0",
-            "databaseVersions": ["oracle-12c-r1", "mysql-5.7.37", "postgres-9.6", "mssql-2017"]
+            "databaseVersions": ["oracle-12c-r1", "mysql-5.7.37", "postgres-9.6", "mssql-2017", "mssql-2022"]
         },
         {
             "productVersion": "7.3.0",
-            "databaseVersions": ["oracle-12c-r1", "mysql-5.7.37", "mysql-8.0.32", "postgres-9.6","mssql-2017"]
+            "databaseVersions": ["oracle-12c-r1", "mysql-5.7.37", "mysql-8.0.32", "postgres-9.6","mssql-2017", "mssql-2022"]
         },
         {
             "productVersion": "7.4.0",
-            "databaseVersions": ["oracle-12c-r1", "mysql-5.7.37", "mysql-8.0.32", "postgres-9.6", "mssql-2017"]
+            "databaseVersions": ["oracle-12c-r1", "mysql-5.7.37", "mysql-8.0.32", "postgres-9.6", "mssql-2017", "mssql-2022"]
         },
         {
             "productVersion": "7.12.0",
-            "databaseVersions": ["oracle-12c-r1", "mysql-5.7.37", "mysql-8.0.32", "postgres-9.6", "postgres-11", "mssql-2017"]
+            "databaseVersions": ["oracle-12c-r1", "mysql-5.7.37", "mysql-8.0.32", "postgres-9.6", "postgres-11", "mssql-2017", "mssql-2022"]
         },
         {
             "productVersion": "7.14.0",
-            "databaseVersions": ["oracle-12c-r1", "mysql-5.7.37", "mysql-8.0.32", "postgres-11", "mssql-2017"]
+            "databaseVersions": ["oracle-12c-r1", "mysql-5.7.37", "mysql-8.0.32", "postgres-11", "mssql-2017", "mssql-2022"]
         },
         {
             "productVersion": "7.16.0",
-            "databaseVersions": ["oracle-12c-r1", "mysql-5.7.37", "mysql-8.0.32", "postgres-11", "mssql-2017", "mssql-2019"]
+            "databaseVersions": ["oracle-12c-r1", "mysql-5.7.37", "mysql-8.0.32", "postgres-11", "mssql-2017", "mssql-2019", "mssql-2022"]
         },
         {
             "productVersion": "7.17.0",
-            "databaseVersions": ["oracle-12c-r1", "mysql-5.7.37", "mysql-8.0.32", "postgres-11", "postgres-14", "mssql-2017", "mssql-2019"]
+            "databaseVersions": ["oracle-12c-r1", "mysql-5.7.37", "mysql-8.0.32", "postgres-11", "postgres-14", "mssql-2017", "mssql-2019", "mssql-2022"]
         },
         {
             "productVersion": "8.0.0",
-            "databaseVersions": ["oracle-12c-r1", "mysql-8.0.32", "postgres-14", "mssql-2017", "mssql-2019"]
+            "databaseVersions": ["oracle-12c-r1", "mysql-8.0.32", "postgres-14", "mssql-2017", "mssql-2019", "mssql-2022"]
         }
     ],
     "databases": [
@@ -135,6 +135,13 @@
             "label": "MSSQL 2019",
             "key": "mssql-2019",
             "port": 11434,
+            "type": "mssql"
+        },
+        {
+            "version": "2022",
+            "label": "MSSQL 2022",
+            "key": "mssql-2022",
+            "port": 11435,
             "type": "mssql"
         }
     ]
