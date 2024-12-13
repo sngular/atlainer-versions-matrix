@@ -71,7 +71,7 @@
             "databaseVersions": ["oracle-12c-r1", "mysql-8.0.32", "postgres-14", "mssql-2019"]
         },
         {
-            "productVersion": "8.6.0",
+            "productVersion": "8.7.0",
             "databaseVersions": ["oracle-12c-r1", "mysql-8.0.32", "postgres-14", "mssql-2019", "mssql-2022"]
         }
     ],
