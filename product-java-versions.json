@@ -43,6 +43,12 @@
       "javaVersions": [
         "temurin-jdk-17"
       ]
+    },
+    {
+      "productVersion": "11.0.0",
+      "javaVersions": [
+        "temurin-jdk-21"
+      ]
     }
   ],
   "CONFLUENCE": [
@@ -73,6 +79,12 @@
       "javaVersions": [
         "temurin-jdk-17"
       ]
+    },
+    {
+      "productVersion": "10.0.0",
+      "javaVersions": [
+        "temurin-jdk-21"
+      ]
     }
   ],
   "java": [
@@ -99,6 +111,10 @@
     {
       "version": "temurin-jdk-17",
       "label": "Eclipse Temurin - Java 17"
+    },
+    {
+      "version": "temurin-jdk-21",
+      "label": "Eclipse Temurin - Java 21"
     }
   ]
 }
