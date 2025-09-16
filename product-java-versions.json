@@ -85,6 +85,12 @@
       "javaVersions": [
         "temurin-jdk-21"
       ]
+    },
+    {
+      "productVersion": "10.0.2",
+      "javaVersions": [
+        "temurin-jdk-21"
+      ]
     }
   ],
   "java": [
@@ -117,4 +123,4 @@
       "label": "Eclipse Temurin - Java 21"
     }
   ]
-}
+}}
