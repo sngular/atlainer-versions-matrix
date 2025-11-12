@@ -235,7 +235,7 @@
       "label": "MySQL 8.4",
       "key": "mysql-8.4",
       "type": "mysql",
-      "port": 13307,
+      "port": 13308,
       "connector": "mysql-connector-j-8.0.32.jar"
     },
     {
@@ -260,14 +260,14 @@
       "type": "postgres"
     },
     {
-      "version": "16",
+      "version": "16.0",
       "label": "Postgres 16",
       "key": "postgres-16",
       "port": 15435,
       "type": "postgres"
     },
     {
-      "version": "17",
+      "version": "17.0",
       "label": "Postgres 17",
       "key": "postgres-17",
       "port": 15436,
