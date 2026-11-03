@@ -49,6 +49,12 @@
       "javaVersions": [
         "temurin-jdk-21"
       ]
+    },
+    {
+      "productVersion": "12.0.0",
+      "javaVersions": [
+        "temurin-jdk-25"
+      ]
     }
   ],
   "CONFLUENCE": [
@@ -91,6 +97,12 @@
       "javaVersions": [
         "temurin-jdk-21"
       ]
+    },
+    {
+      "productVersion": "11.0.0",
+      "javaVersions": [
+        "temurin-jdk-25"
+      ]
     }
   ],
   "java": [
@@ -121,6 +133,10 @@
     {
       "version": "temurin-jdk-21",
       "label": "Eclipse Temurin - Java 21"
+    },
+    {
+      "version": "temurin-jdk-25",
+      "label": "Eclipse Temurin - Java 25"
     }
   ]
 }
